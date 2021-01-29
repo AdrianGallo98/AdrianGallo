@@ -1,0 +1,62 @@
+.background-blue{
+    background-color:#d3e0ea;
+}
+
+
+.list{
+    height: 40%;
+    border:3px solid;
+    border-color: #3d92e2;
+    border-radius: 15px;
+}
+.color-blue{
+    color:#3d92e2;
+}
+.padding50{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.width50{
+    width: 50%;
+}
+.img-uaa{
+    height: 70%;
+}
+
+
+.vanishIn {
+    animation-name: vanishIn;
+  }
+  
+  @-webkit-keyframes vanishIn {
+    0% {
+      opacity: 0;
+      transform-origin: 50% 50%;
+      transform: scale(2, 2);
+      filter: blur(90px);
+    }
+    100% {
+      opacity: 1;
+      transform-origin: 50% 50%;
+      transform: scale(1, 1);
+      filter: blur(0px);
+    }
+  }
+  
+  @keyframes vanishIn {
+    0% {
+      opacity: 0;
+      transform-origin: 50% 50%;
+      transform: scale(2, 2);
+      filter: blur(90px);
+    }
+    100% {
+      opacity: 1;
+      transform-origin: 50% 50%;
+      transform: scale(1, 1);
+      filter: blur(0px);
+    }
+  }
