@@ -5,11 +5,13 @@ a{
 .mynavbar{
     height: 15%;
     background-color: #3d92e2;
+    /* position:initial; */
 }
 
 .textwhite{
     color: white;
-}.text120{
+}
+.text120{
     font-size: 120%;
 }
 .text200{
