@@ -22,4 +22,8 @@ export class InfoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openLink(url: string){
+    window.open("//"+url,"_blank");
+  }
+
 }

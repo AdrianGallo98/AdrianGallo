@@ -24,22 +24,22 @@
         <div class="d-flex row width50 justify-content-center align-items-center">
             <div class="color-blue d-flex padding50 justify-content-center align-items-center">
                 <div class="d-flex justify-content-center align-items-center circle-icon hvr-radial-out">
-                    <fa-icon class="fa-4x" [icon]="faEnvelope"></fa-icon>
+                    <fa-icon class="fa-4x" [icon]="faEnvelope" href="mailto:angallo78@gmail.com"></fa-icon>
                 </div>
             </div>
             <div class="color-blue padding50">
                 <div class="d-flex justify-content-center align-items-center circle-icon hvr-radial-out">
-                    <fa-icon class="fa-4x" [icon]="faLinkedinIn"></fa-icon>
+                    <fa-icon class="fa-4x" [icon]="faLinkedinIn" (click)="openLink('www.linkedin.com/in/adrian-gallo')"></fa-icon>
                 </div>
             </div>
             <div class="color-blue padding50">
                 <div class="d-flex justify-content-center align-items-center circle-icon hvr-radial-out">
-                    <fa-icon class="fa-4x" [icon]="faWhatsapp"></fa-icon>
+                    <fa-icon class="fa-4x" [icon]="faWhatsapp" (click)="openLink('api.whatsapp.com/send?phone=524493550605')"></fa-icon>
                 </div>
             </div>
             <div class="color-blue padding50">
                 <div class="d-flex justify-content-center align-items-center circle-icon hvr-radial-out">
-                    <fa-icon class="fa-4x" [icon]="faGithub"></fa-icon>
+                    <fa-icon class="fa-4x" [icon]="faGithub" (click)="openLink('github.com/AdrianGallo98')"></fa-icon>
                 </div>
             </div>
         </div>

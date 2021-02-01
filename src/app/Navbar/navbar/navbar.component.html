@@ -1,21 +1,26 @@
     <nav class="navbar navbar-light mynavbar">
         <!-- left -->
         <div class="d-flex row col-md-12 justify-content-between">
-            <div class="d-flex col-md-6 align-items-center textwhite text200 animation-target">
-                Ramiro Adrian Gallo Alba
+            <div class="d-flex col-md-6 align-items-center text200 animation-target">
+                <a class="textwhite  " [routerLink]="['/home']">
+                    Ramiro Adrian Gallo Alba
+                </a>
             </div>
             <!-- Right -->
             <div class="d-flex row col-md-6 align-items-center justify-content-end">
                 <!-- <div class="d-flex row col-md-6 justify-content-end"> -->
-                    <div class="d-flex col-md-4 justify-content-between align-items-center">
-                        <div class="atextwhite text120 hvr-underline-from-center height30">
-                            <a [routerLink]="" class="textwhite">About</a>
+                    <div class="d-flex col-md-5 justify-content-between align-items-center">
+                        <div class="textwhite text120 hvr-underline-from-center height30">
+                            <a [routerLink]="['/home']" class="textwhite">Home</a>
                         </div>
                         <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a  [routerLink]="" class="textwhite">Skills</a>
+                            <a [routerLink]="['/about']" class="textwhite">About</a>
                         </div>
                         <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a  [routerLink]="" class="textwhite">Contact</a>
+                            <a  [routerLink]="['/skills']" class="textwhite">Skills</a>
+                        </div>
+                        <div class="textwhite text120 hvr-underline-from-center height30">
+                            <a  [routerLink]="['/contact']" class="textwhite">Contact</a>
                         </div>
                     <!-- </div> -->
                     
