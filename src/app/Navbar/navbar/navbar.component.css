@@ -21,6 +21,12 @@ a{
     height: 30px;
 }
 
+.activate {
+  /* border-bottom: 4px solid white; */
+  border-bottom: 2px solid white;  
+  /* border-color: #3d92e2; */
+
+}
 
 
 
@@ -40,7 +46,7 @@ a{
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #d3e0ea;
+    background: white;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;

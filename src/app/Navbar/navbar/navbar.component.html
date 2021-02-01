@@ -10,17 +10,17 @@
             <div class="d-flex row col-md-6 align-items-center justify-content-end">
                 <!-- <div class="d-flex row col-md-6 justify-content-end"> -->
                     <div class="d-flex col-md-5 justify-content-between align-items-center">
-                        <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a [routerLink]="['/home']" class="textwhite">Home</a>
+                        <div class="textwhite text120 hvr-underline-from-center height30" [routerLinkActive]="['activate']" >
+                            <a class="textwhite" [routerLink]="['/home']" >Home</a>
                         </div>
-                        <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a [routerLink]="['/about']" class="textwhite">About</a>
+                        <div class="textwhite text120 hvr-underline-from-center height30"  [routerLinkActive]="['activate']">
+                            <a  class="textwhite"  [routerLink]="['/about']">About</a>
                         </div>
-                        <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a  [routerLink]="['/skills']" class="textwhite">Skills</a>
+                        <div class="textwhite text120 hvr-underline-from-center height30"  [routerLinkActive]="['activate']">
+                            <a class="textwhite" [routerLink]="['/skills']" >Skills</a>
                         </div>
-                        <div class="textwhite text120 hvr-underline-from-center height30">
-                            <a  [routerLink]="['/contact']" class="textwhite">Contact</a>
+                        <div class="textwhite text120 hvr-underline-from-center height30"  [routerLinkActive]="['activate']">
+                            <a class="textwhite" [routerLink]="['/contact']" >Contact</a>
                         </div>
                     <!-- </div> -->
                     

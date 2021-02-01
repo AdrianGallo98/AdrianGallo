@@ -26,4 +26,8 @@ export class InfoComponent implements OnInit {
     window.open("//"+url,"_blank");
   }
 
+  clickCircle(){
+  
+  }
+
 }
