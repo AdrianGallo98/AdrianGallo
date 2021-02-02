@@ -25,7 +25,9 @@ export class InfoComponent implements OnInit {
   openLink(url: string){
     window.open("//"+url,"_blank");
   }
-
+  mailTo(){
+    window.open("mailto:angallo78@gmail.com")
+  }
   clickCircle(){
   
   }

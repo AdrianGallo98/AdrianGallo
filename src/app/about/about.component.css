@@ -1,3 +1,23 @@
 .background-blue{
     background-color:#d3e0ea;
 }
+.w-80{
+    width : 80%;
+}
+/* table, th, tr{
+    border: 1px solid blue;
+} */
+.color-blue{
+    color: #3d92e2;
+}
+
+table thead th{
+    font-size: 22px;
+    font-style: italic;
+}
+.level1{
+    padding-left: 0%;
+}
+.level2{
+    padding-left: 15%;
+}

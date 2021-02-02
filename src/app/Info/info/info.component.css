@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 .background-blue{
     background-color:#d3e0ea;
 }
@@ -25,9 +28,12 @@
 .width80{
     width: 80%;
 }
-.img-uaa{
-    height: 70%;
-}
+/* .img-uaa{
+    width: 70%;
+} */
+/* .img-ici{
+    height: 388px;
+} */
 
 .resume{
     margin-top:14%; 
@@ -51,22 +57,23 @@
 .circle1{
     /* padding-top: 4%;
     padding-left: 4%; */
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background :#3d92e2;
+    background :white;
     margin-left: 3%;
+    border: 3px solid #3d92e2;
 }
 .paddxy2{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.sendemail{
+/* .sendemail{
     text-decoration: none; 
     color: #3d92e2;
-}
+} */
  /* .activec{
     background-color:white;
 }  */

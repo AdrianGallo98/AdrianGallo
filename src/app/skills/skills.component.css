@@ -1,3 +1,27 @@
 .background-blue{
     background-color:#d3e0ea;
 }
+.color-blue{
+    color: #3d92e2;
+}
+.width50{
+    width: 50%;
+}
+.width80{
+    width: 80%;
+}
+.width85{
+    width: 85%;
+}
+.width15{
+    width: 15%;
+}
+.width55{
+    width: 55%;
+}
+.width45{
+    width: 45%;
+}
+.height15{
+   height: 15%;
+}
